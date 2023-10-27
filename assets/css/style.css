@@ -134,17 +134,24 @@ nav .container {
 .row ul li:hover .sub-menu ul li{
   width: 150px;
   padding: 10px;
-  background: transparent;    hover menu
+  background: transparent;  
   border-radius: 0;
   text-align: left;
 }
 .sub-menu{
   display: none;
 }
-.hover-menu:hover .sub-menu{
+
+#custom-logo-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.hover-menu:hover  .sub-menu{
   position: absolute;
-  display: block;
-  margin-top: -40px;
+  margin-top: 0;
   margin-left: 140px;
+  border: 1px solid;
   background:#24252624 ;
 }
